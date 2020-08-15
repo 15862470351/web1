@@ -14,6 +14,7 @@ public class HelloServlet extends HttpServlet {
             response.getWriter().println(new Date().toLocaleString());
             
             response.getWriter().println("<h1>随便写一下!</h1>");
+            response.getWriter().println("<h1>随便写两下!</h1>");
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
